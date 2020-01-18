@@ -8,6 +8,7 @@ class PageTwo extends React.Component<{
   history: any;
 }> {
   componentDidMount() {
+    // NOTE: component state is not re-mounted unless main state is reset
     console.log("Mounted!");
   }
   render() {
